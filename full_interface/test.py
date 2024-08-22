@@ -1,0 +1,162 @@
+import json
+
+a = [
+    {
+        "profil_id": 205,
+        "strengths": """Participation aux activités de communication orale
+        Respect des règles de l'échange
+        Discrimination de sons
+        Découpage des mots lus en syllabes
+        Reconnaissance et identification des mots
+        Organisation de son matériel
+        Volonté de répondre aux exigences""",
+        "challenges":"""Compréhension de textes (EN et FR)
+        Compréhension des inférences (FR)
+        Orthographe d'usage/grammaticale (EN et FR)
+        Structure des phrase (EN et FR)
+        Utilisation des temps de verbes (EN)
+        Conventions linguistiques - intonation, prononciation (EN)
+        Formulation des idées en phrases à l'écrit (EN)""",
+        "needs":"""Utiliser les outils d'aide technologiques de façon systématique
+        Développer ses compétences en compréhension de lecture""",
+        "expected_goals":str([
+            {
+                "line": 1152,
+                "reference": "(condition) (élève) utilise (critère) stratégies pour gérer sa compréhension de lecture",
+                "real": "Lors d'une tâche de compréhension de lecture, Elias utilise toujours les stratégies de lecture enseignée en classe (survol, sélection, annotation)"},
+            {
+                "line": 1172,
+                "reference": "(élève) décode globalement (spontanément / par voie d'adressage) (critère) mots",
+                "real": "Elias décelle les mots-clés des question afin de comprendre ce qui lui est demandé 8 fois sur 10."
+            }
+        ])
+    },
+    {
+        "profil_id": 325,
+        "strengths":"""-souriante
+        -calme
+        -sociable""",
+        "challenges":"""-difficulté à s'exprimer en français.
+        -grande difficulté en écriture
+        - manque de vocabulaire""",
+        "needs":"""-améliorer ses habiletés en écriture, compréhension
+        -enrichir son vocabulaire""",
+        "expected_goals":str([
+            {
+                "line": 9116,
+                "reference": "(condition) (élève) compose un nombre écrit en notation décimale (critère)",
+                "real": "Lors de ses compositions, Eva rédige ses phrases en tenant compte des accords en nombre"
+            },
+            {
+                "line": 2321,
+                "reference": "(condition) (élève) expérimente (critère) nouveaux mots",
+                "real": "Eva orthographie 25 nouveaux mots par mois"
+            },
+            {
+                "line": 7247,
+                "reference": "(condition) (élève) interprète ou résume un texte",
+                "real": "Après la lecture d'un texte, Eva l'interprète ou le résume"
+            },
+            {
+                "line": 7402,
+                "reference": "À l'aide d'un ou plusieurs textes courants, (élève) répond à (critère) questions (condition)",
+                "real": "À l'aide d'un ou plusieurs textes courants, Eva répond à 6 questions de compréhension"
+            },
+            {
+                "line": 7963,
+                "reference": "(condition) (élève) lit (critère) mots / par (critère) minute",
+                "real": "Eva lit 105 mots / par minute"
+                }
+        ])
+    },
+    {
+        "profil_id":648,
+        "strengths":"""Répond bien aux interventions en petits groupes
+        - Polie
+        - Attitude de travail positive
+        - Respecte les règles de classe
+        - S'efforce de parler en français""",
+        "challenges":"""Établir une correspondance phonème-graphème (les sons à l'écrit)
+        - Décoder des phrases simples.
+        - Reconnaitre certains sons à l'intérieur d'un mot.
+        - Lire avec aisance et fluidité""",
+        "needs":"""L’élève à besoin d’apprendre à :
+        Lire avec aisance et fluidité
+        Orthographier correctement les mots de la liste orthographique de 2e année""",
+        "expected_goals":str([
+            {
+                "line": 1173,
+                "reference": "(élève) décode phonologiquement (par voie d'assemblage) (critère) mots",
+                "real": "Liora sera capable d'établir une correspondance phonème-graphème, d'ici la fin de l'année scolaire"
+            },
+            {
+                "line": 1200,
+                "reference": "(condition) (élève) lit les chiffres de 10 à 20 sous forme symbolique et sous forme verbale",
+                "real": "Liora sera capable de reconnaître 20 mots (1 à 4 lettres) de la liste de mots fréquents du 1er cycle du primaire, d’ici la deuxième étape de l’année scolaire"
+            },
+            {
+                "line": 4576,
+                "reference": "(condition) (élève) explique ses facilités de lecture (critère)",
+                "real": "Liora sera capable de lire 47 mots par minute avec aisance et fluidité, d'ici la fin de l'année scolaire"},
+            {
+                "line": 9637,
+                "reference": "(condition) (élève) utilise les compétences de lecture émergentes (critère)",
+                "real": "Liora sera capable de lire des mots de structure CV, VC, CCV, CVC, et CCVC d’ici la deuxième étape de l’année scolaire"
+            }
+        ])
+    },
+    { 
+        "profil_id": 95,
+        "strengths":"""Attitude positive
+            Optimiste
+            Bonne expression orale
+            Bonne connaissance des techniques utilisées en mathématiques
+            Bon sens de l'humour""",
+        "challenges":"""Décodage et compréhension de lecture.
+            Communication écrite.
+            Habiletés inter et intrapersonnelles""",
+        "needs":"""Nicolas a besoin d'apprendre à:
+            lire avec aisance et fluidité
+            comprendre ce qu'il lit
+            écrire des paragraphes / textes
+            identifier et gérer ses émotions""",
+        "expected_goals":str([
+            {
+                "line": 7259,
+                "reference": "Suite à la lecture d'un texte de (nombre) mots, (condition), (élève) décrit (critère) la séquence de (nombre) évènements (critère)",
+                "real": "Suite à la lecture d’un texte de 50 mots, Nicolas décrit la séquence de 5+ évènements"
+            },
+            {
+                "line": 2304,
+                "reference": "(condition) (élève) identifie (critère) stratégies qu'il ou elle pourrait utiliser lors d'une communication orale",
+                "real": "Nicolas identifie trois stratégies qu'il ou elle pourrait utiliser lors d'une communication orale 1 fois par semaine"
+            },
+            {
+                "line": 876,
+                "reference": "(condition) (élève) exprime, au besoin, ses émotions",
+                "real": "À l'aide de sa banque Eximots, Nicolas exprime ses émotions 4 fois / semaine"
+            },
+            {
+                "line": 1870,
+                "reference": "(élève) lit à voix haute un texte de (critère) mots",
+                "real": "Nicolas lit à haute voix un texte de 50 mots"
+            },
+            {
+                "line": 6279,
+                "reference": "(condition) (élève) explique des avantages de l'écriture dans le développement de l'architecture (critère)",
+                "real": "Nicolas justifie le propos 1/2 projet écriture"
+            },
+            {
+                "line": 7120,
+                "reference": "Suite à la lecture d'une œuvre littéraire, (élève) établit des liens avec ses expériences",
+                "real": "Suite à la lecture d'une œuvre littéraire, (élève) établit des liens avec ses expériences"},
+            {
+                "line": 1254,
+                "reference": "(condition) (élève) détermine (critère) moyens de satisfaire les besoins d'apprentissage ou d'accomplissement d'une personne",
+                "real": "Nicolas détermine 5 moyens de satisfaire les besoins d'apprentissage ou d'accomplissement d'une personne"
+            }])
+    }
+]
+
+with open("./full_interface/src/prompt.json", "w") as file:
+    json.dump(a, file, indent=2, ensure_ascii=False)

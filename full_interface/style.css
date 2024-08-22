@@ -1,0 +1,55 @@
+.sidebar .sidebar-content
+{
+    max-width: 600px;
+    min-width: 600px;
+    width: 600px;
+    background: white;
+}
+
+.st-emotion-cache-1mi2ry5
+{
+    padding: 0.5rem;
+}
+
+.st-emotion-cache-4uzi61
+{
+    background: #c7d1e6;
+}
+
+
+.st-emotion-cache-13ln4jf
+{
+    max-width: 98%;
+    padding: 1.5rem 1rem 10rem;
+}
+
+.st-emotion-cache-2ysx9g:first-child
+{
+    width: 300px;
+    flex: auto;
+}
+
+.st-emotion-cache-2ysx9g:last-child
+{
+    
+    padding: 0;
+    border-radius: 0;
+    width:60%
+}
+
+.st-emotion-cache-ypi84d
+{
+    border-radius: 0.5rem;
+    background: rgb(240, 242, 246);
+    padding: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.st-emotion-cache-ypi84d > div
+{
+    margin: 1rem 0;
+}
